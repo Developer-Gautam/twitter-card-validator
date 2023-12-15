@@ -1,18 +1,17 @@
 {
   "index.css": {
-    "file": "assets/index-571c58b7.css",
+    "file": "assets/index-4d57ac2a.css",
     "src": "index.css"
   },
   "index.html": {
     "assets": [
-      "assets/logo-f0d7d9e4.webp",
       "assets/lightLogo-699c0ed7.webp",
       "assets/hero-c281cbed.webp"
     ],
     "css": [
-      "assets/index-571c58b7.css"
+      "assets/index-4d57ac2a.css"
     ],
-    "file": "assets/index-1743b20e.js",
+    "file": "assets/index-54f56d09.js",
     "isEntry": true,
     "src": "index.html"
   },
