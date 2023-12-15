@@ -15,10 +15,133 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="apple-touch-icon" href="https://www.seohorizon.com/wp-content/uploads/logo.png" />
   <link rel="stylesheet" href="./src/components/Hero/hero.css">
-
+  <link rel="stylesheet" href="./src/components/Navbar/navbar.css">
 </head>
 
 <body>
+
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <img src="./src/assets/logo.webp" class="nav__logo" alt="">
+
+        <div class="nav__toggle" id="nav-toggle">
+          <!-- <i class="ri-menu-line nav__burger"></i> -->
+          <svg class="nav__burger" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+            viewBox="0 0 50 50">
+            <path
+              d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 L 0 7.5 z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 L 0 22.5 z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 L 0 37.5 z">
+            </path>
+          </svg>
+          <!-- <i class="ri-close-line nav__close"></i> -->
+          <svg class="nav__close" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
+            viewBox="0 0 50 50">
+            <path
+              d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z">
+            </path>
+          </svg>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <!--=============== DROPDOWN 1 ===============-->
+
+          <li class="dropdown__item">
+            <div class="nav__link">
+              TOPICS
+              <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
+            </div>
+
+            <!-- <ul class="dropdown__menu">
+							<li><a href="https://www.seohorizon.com/seo/" class="dropdown__link">SEO</a></li>
+							<li><a href="https://www.seohorizon.com/marketing/" class="dropdown__link">MARKETING</a>
+							</li>
+							<li><a href="https://www.seohorizon.com/blogging/" class="dropdown__link">BLOGGING</a></li>
+							<li><a href="https://www.seohorizon.com/digital/" class="dropdown__link">DIGITAL
+									MARKETING</a></li>
+							<li><a href="https://www.seohorizon.com/social/" class="dropdown__link">SOCIAL MEDIA
+									OPTIMIZATION</a></li>
+							<li><a href="https://www.seohorizon.com/ecommerce/" class="dropdown__link">ECOMMERCE</a>
+							</li>
+							<li><a href="https://www.seohorizon.com/branding/" class="dropdown__link">BRAND
+									DEVELOPMENT</a></li>
+							<li><a href="https://www.seohorizon.com/content/" class="dropdown__link">CONTENT
+									MARKETING</a></li>
+						</ul> -->
+          </li>
+
+          <!--=============== DROPDOWN 2 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              TOOLS
+              <!-- <i class="ri-arrow-down-s-line dropdown__arrow"></i> -->
+            </div>
+
+            <!-- <ul class="dropdown__menu">
+							=============== DROPDOWN SUBMENU ===============
+							<li class="dropdown__subitem">
+								<div class="dropdown__link">
+									BUSINESS TOOLS <i class="ri-add-line dropdown__add"></i>
+								</div>
+								<ul class="dropdown__submenu">
+									<li><a href="https://www.seohorizon.com/email-signature-generator/"
+											class="dropdown__sublink">EMAIL SIGNATURE GENERATOR</a></li>
+									<li><a href="https://www.seohorizon.com/qr-code-generator/"
+											class="dropdown__sublink">QR CODE GENERATOR</a></li>
+									<li><a href="https://www.seohorizon.com/online-invoice-generator/"
+											class="dropdown__sublink">ONLINE INVOICE GENERATOR</a></li>
+									<li><a href="https://www.seohorizon.com/barcode-generator/"
+											class="dropdown__sublink">BARCODE GENERATOR</a></li>
+									<li><a href="https://www.seohorizon.com/business-loan-calculator/"
+											class="dropdown__sublink">BUSINESS LOAN CALCULATOR</a></li>
+									<li><a href="https://www.seohorizon.com/profit-margin-calculator/"
+											class="dropdown__sublink">PROFIT MARGIN CALCULATOR</a></li>
+								</ul>
+							</li>
+							<li class="dropdown__subitem">
+								<div class="dropdown__link">
+									DESIGN TOOLS<i class="ri-add-line dropdown__add"></i>
+								</div>
+								<ul class="dropdown__submenu">
+									<li><a href="https://www.seohorizon.com/image-resizer/"
+											class="dropdown__sublink">IMAGE RESIZER</a></li>
+								</ul>
+							</li>
+							<li class="dropdown__subitem">
+								<div class="dropdown__link">
+									SECURITY TOOLS <i class="ri-add-line dropdown__add"></i>
+								</div>
+								<ul class="dropdown__submenu">
+									<li><a href="https://www.seohorizon.com/strong-password-generator/"
+											class="dropdown__sublink">PASSWORD GENERATOR</a></li>
+									<li><a href="https://www.seohorizon.com/ssl-checker/" class="dropdown__sublink">SSL
+											CHECKER</a></li>
+								</ul>
+							</li>
+							<li class="dropdown__subitem">
+								<div class="dropdown__link">
+									SOCIAL MEDIA TOOLS<i class="ri-add-line dropdown__add"></i>
+								</div>
+								<ul class="dropdown__submenu">
+									<li><a href="https://www.seohorizon.com/twitter-card-validator/"
+											class="dropdown__sublink">TWITTER CARD VALIDATOR</a></li>
+								</ul>
+							</li>
+						</ul> -->
+          </li>
+
+          <li><a href="https://www.seohorizon.com/reviews/" class="nav__link">REVIEWS</a></li>
+
+          <li><a href="https://www.seohorizon.com/contact/" class="nav__link">CONTACT</a></li>
+        </ul>
+      </div>
+      <div></div>
+    </nav>
+  </header>
+
+
   <div class='main'>
     <div class='fontDiv'>
       <h1>Write Better <span>Tweets</span> <br />Grow your <br />audience.</h1>
@@ -31,3 +154,28 @@
 </body>
 
 </html>
+
+
+<script>
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('.header');
+    const logo = document.querySelector('.nav__logo');
+
+    // Calculate scroll position
+    const scrollPosition = window.scrollY;
+
+    // Define a threshold for when to change the class
+    const threshold = 100; // Adjust as needed
+
+    if (scrollPosition > threshold) {
+      // Add a new class when scrolled past the threshold
+      header.classList.add('scrolled');
+      logo.classList.add('scrolled-logo');
+    } else {
+      // Remove the class when not scrolled past the threshold
+      header.classList.remove('scrolled');
+      logo.classList.remove('scrolled-logo');
+    }
+  });
+
+</script>

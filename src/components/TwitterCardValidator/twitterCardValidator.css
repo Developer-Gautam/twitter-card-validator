@@ -17,15 +17,16 @@
 }
 
 .write-your-tweet {
-  margin-top: 30px;
   background-color: #ffffff;
   border-radius: 8px;
   padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+  rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.write-your-tweet h2 {
+.write-your-tweet h3 {
   font-size: 19px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   color: #333333;
   text-align: center;
 }
@@ -57,6 +58,7 @@
 }
 
 .clipboardDiv {
+  padding: 5px;
   display: flex;
   align-items: center;
 }
@@ -69,6 +71,7 @@
   background-color: #fff;
   cursor: pointer;
   font-size: 12px;
+  padding: 0px 5px;
 }
 
 .button {
